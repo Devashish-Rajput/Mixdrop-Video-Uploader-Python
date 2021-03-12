@@ -6,6 +6,7 @@ path = "/Your Path/"
 upload_url = "https://ul.mixdrop.co/api"
 email = "Your Email used in Mixdrop"
 key = "Your Mixdrop Api Key"
+
 filepaths = [os.path.join(path, file) for file in os.listdir(path)]
 
 for z in filepaths:
